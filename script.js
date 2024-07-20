@@ -32,6 +32,7 @@ function updateNumberList() {
 
 function resetGame() {
     generatedNumbers = [];
-    document.getElementById('currentNumber').innerText = 'Presiona "Generar Número" para empezar';
+    document.getElementById('currentNumber').innerHTML = '🎉 Pulsa <button class="btn - btn-primary disabled "> Nuevo Número</button> para empezar 🔢';
     document.getElementById('numberList').innerHTML = '';
 }
+
